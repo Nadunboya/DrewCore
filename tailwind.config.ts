@@ -26,6 +26,7 @@ const config: Config = {
       transparent: "transparent",
       white: "#FFFFFF",
       body: "#6C6F93",
+      black: "#000000", 
       meta: {
         DEFAULT: "#F7F9FC",
         2: "#495270",
