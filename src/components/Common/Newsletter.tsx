@@ -48,6 +48,7 @@ const Newsletter = () => {
             </div>
           </div>
         </div>
+        <div className="py-10"></div>
       </div>
     </section>
   );

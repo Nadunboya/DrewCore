@@ -25,7 +25,7 @@ const SingleItem = ({ item }: { item: Product }) => {
       addItemToCart({
         ...item,
         quantity: 1,
-      })
+      }),
     );
   };
 
@@ -35,13 +35,13 @@ const SingleItem = ({ item }: { item: Product }) => {
         ...item,
         status: "available",
         quantity: 1,
-      })
+      }),
     );
   };
 
   return (
     <div className="group">
-      <div className="relative overflow-hidden rounded-lg bg-[#F6F7FB] min-h-[403px]">
+      <div className="relative overflow-hidden rounded-lg bg-[#F6F7FB] min-h-[403px] border border-transparent group-hover:border-x-blue-light-3 group-hover:shadow-2 ease-out duration-200 min-h-[270px] mb-4">
         <div className="text-center px-4 py-7.5">
           <div className="flex items-center justify-center gap-2.5 mb-2">
             <div className="flex items-center gap-1">

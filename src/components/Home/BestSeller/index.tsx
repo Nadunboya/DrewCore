@@ -13,7 +13,7 @@ const BestSeller = () => {
           <div>
             <span className="flex items-center gap-2.5 font-medium text-dark mb-1.5">
               <Image
-                src="/images/icons/icon-07.svg"
+                src="/images/icons/18778594.png"
                 alt="icon"
                 width={17}
                 height={17}
