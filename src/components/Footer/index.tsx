@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 const Footer = () => {
@@ -217,28 +218,28 @@ const Footer = () => {
                 </a>
               </li> */}
               <li>
-                <a
+                <Link
                   className="ease-out duration-200 hover:text-blue-light-2"
-                  href="#"
+                  href="/cart"
                 >
                   Cart
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="ease-out duration-200 hover:text-blue-light-2"
-                  href="#"
+                  href="/wishlist"
                 >
                   Wishlist
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="ease-out duration-200 hover:text-blue-light-2"
-                  href="#"
+                  href="/shop-with-sidebar"
                 >
                   Shop
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -249,44 +250,44 @@ const Footer = () => {
 
             <ul className="flex flex-col gap-3">
               <li>
-                <a
+                <Link
                   className="ease-out duration-200 hover:text-blue-light-2"
-                  href="#"
+                  href="/privacy-policy"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="ease-out duration-200 hover:text-blue-light-2"
-                  href="#"
+                  href="/refund-policy"
                 >
                   Refund Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="ease-out duration-200 hover:text-blue-light-2"
-                  href="#"
+                  href="/terms-of-use"
                 >
                   Terms of Use
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="ease-out duration-200 hover:text-blue-light-2"
-                  href="#"
+                  href="/faq"
                 >
                   FAQ’s
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="ease-out duration-200 hover:text-blue-light-2"
-                  href="#"
+                  href="/contact"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
